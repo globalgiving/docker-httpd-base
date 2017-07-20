@@ -19,8 +19,8 @@ RUN apt-get update \
 		libssl1.0.0 \
 	&& rm -r /var/lib/apt/lists/*
 
-ENV HTTPD_VERSION 2.2.32
-ENV HTTPD_SHA1 36dc7f2ac97627192dcff0a121408b897f91b121
+ENV HTTPD_VERSION 2.2.34
+ENV HTTPD_SHA1 829206394e238af0b800fc78d19c74ee466ecb23
 ENV HTTPD_BZ2_URL https://www.apache.org/dist/httpd/httpd-$HTTPD_VERSION.tar.bz2
 
 RUN buildDeps=' \
